@@ -56,8 +56,8 @@ export default function Home() {
             We've received your property information. One of our home buying specialists will contact you within <strong className="text-emerald-600">24 hours</strong> with a fair cash offer.
           </p>
           <div className="bg-gradient-to-r from-emerald-50 to-teal-50 rounded-2xl p-6 mb-6 border border-emerald-100">
-            <p className="text-gray-700 font-semibold mb-2">📞 Prefer to talk now?</p>
-            <a href="tel:8322274669" className="text-2xl font-bold text-emerald-600 hover:text-emerald-700 transition">(832) 227-4669</a>
+            <p className="text-gray-700 font-semibold mb-2">📧 Questions? Email us:</p>
+            <a href="mailto:offers@832cash.com" className="text-xl font-bold text-emerald-600 hover:text-emerald-700 transition">offers@832cash.com</a>
           </div>
           <p className="text-sm text-gray-500">
             Reference #<span className="font-mono bg-gray-100 px-3 py-1 rounded-lg">{Math.random().toString(36).substr(2, 8).toUpperCase()}</span>
@@ -106,8 +106,8 @@ export default function Home() {
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition"></span>
             </a>
           </div>
-          <a href="tel:8322274669" className="bg-gradient-to-r from-emerald-500 via-green-500 to-teal-500 hover:from-emerald-600 hover:via-green-600 hover:to-teal-600 text-white px-6 py-3 rounded-xl font-bold transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex items-center gap-2">
-            <span>📞</span> (832) 227-4669
+          <a href="mailto:offers@832cash.com" className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:from-blue-700 hover:via-indigo-700 hover:to-purple-700 text-white px-6 py-3 rounded-xl font-bold transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex items-center gap-2">
+            <span>✉️</span> Contact Us
           </a>
         </div>
       </header>
@@ -547,7 +547,7 @@ export default function Home() {
           </div>
           <div className="text-center mt-10">
             <p className="text-gray-600 text-lg">
-              Don't see your area? <a href="tel:8322274669" className="text-blue-600 font-bold hover:underline">Call us</a> — we probably still serve it!
+              Don't see your area? <a href="mailto:offers@832cash.com" className="text-blue-600 font-bold hover:underline">Email us</a> — we probably still serve it!
             </p>
           </div>
         </div>
@@ -720,11 +720,8 @@ export default function Home() {
             Fill out the form above or give us a call. There's no obligation, and it only takes 2 minutes to get started.
           </p>
           <div className="flex flex-col md:flex-row gap-6 justify-center">
-            <a href="tel:8322274669" className="bg-gradient-to-r from-emerald-500 via-green-500 to-teal-500 hover:from-emerald-600 hover:via-green-600 hover:to-teal-600 text-white px-10 py-5 rounded-2xl font-bold text-xl transition shadow-xl hover:shadow-2xl transform hover:-translate-y-1 inline-flex items-center justify-center gap-3">
-              <span>📞</span> (832) 227-4669
-            </a>
-            <a href="mailto:offers@832cash.com" className="bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white px-10 py-5 rounded-2xl font-bold text-xl transition border border-white/20 inline-flex items-center justify-center gap-3">
-              <span>✉️</span> offers@832cash.com
+            <a href="mailto:offers@832cash.com" className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:from-blue-700 hover:via-indigo-700 hover:to-purple-700 text-white px-10 py-5 rounded-2xl font-bold text-xl transition shadow-xl hover:shadow-2xl transform hover:-translate-y-1 inline-flex items-center justify-center gap-3">
+              <span>✉️</span> Get Your Cash Offer
             </a>
           </div>
         </div>
@@ -770,10 +767,6 @@ export default function Home() {
             <div>
               <h4 className="font-bold text-white mb-6 text-lg">Contact</h4>
               <ul className="space-y-4">
-                <li className="flex items-center gap-3">
-                  <span className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center">📞</span>
-                  <a href="tel:8322274669" className="hover:text-white transition">(832) 227-4669</a>
-                </li>
                 <li className="flex items-center gap-3">
                   <span className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center">✉️</span>
                   <a href="mailto:offers@832cash.com" className="hover:text-white transition">offers@832cash.com</a>
